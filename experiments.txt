@@ -1,0 +1,82 @@
+'''import numpy as np
+array=np.array([10,20,30])
+print('the array is',array)
+array=np.append(array,[40,50])
+print('the array after appending is',array)
+array=np.delete(array,3)
+print('the array after deleting is',array)
+def right_triangle(a,b,c):
+  l=[a,b,c]
+  l.sort()
+  if l[2]**2==l[0]**2+l[1]**2:
+    return True
+  else:
+    return False
+a=int(input('enter the side 1:'))
+b=int(input('enter the side 2:'))
+c=int(input('enter the side 3:'))
+if right_triangle(a,b,c):
+  print('it is a right triangle')
+else:
+  print('not a right triangle')
+def mob(num):
+  if len(num)==10 and num[0] in ['7','8','9'] and num.isdigit():
+    return True
+  else:
+    return False
+mobile=input('enter the mobile number:')
+if mob(mobile):
+  print('mobile number valid')
+else:
+  print('invalid mobile number')
+def factorial(n):
+  if n<=0:
+    return 1
+  else:
+    return n*factorial(n-1)
+n=int(input('enter the number'))
+if n>=0:
+  print('Factorial is :',factorial(n))
+else:
+  print('number is negative')
+def add(a,b):
+  if b==0:
+    return a
+  else:
+    return add(a+1,b-1)
+a=int(input('enter the first number:'))
+b=int(input('enter the second number:'))
+if a<0 and b<0:
+  print('enter a positive value')
+else:
+  print('the sum of',a,'and',b,'is',add(a,b))
+def multiply(a,b):
+  if b==0:
+    return 0
+  else:
+    return a+multiply(a,b-1)
+a=int(input('enter the first number:'))
+b=int(input('enter the second number:'))
+if a<0 and b<0:
+  print('enter a positive value')
+else:
+  print('the product of',a,'and',b,'is',multiply(a,b))
+def gcd(a,b):
+  if b==0:
+    return a
+  else:
+    return gcd(b,a%b)
+a=int(input('enter the first number:'))
+b=int(input('enter the second number:'))
+if a<0 and b<0:
+  print('enter a positive value')
+else:
+  print('the gcd of',a,'and',b,'is',gcd(a,b))'''
+
+
+
+
+
+
+
+
